@@ -1,0 +1,20 @@
+{
+  "name": "cbs-url-fetcher",
+  "version": "1.0.0",
+  "description": "Downloads video URLs for CBS shows",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0",
+    "commander": "^6.1.0"
+  },
+  "bin": {
+    "cbs-show": "./index.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
